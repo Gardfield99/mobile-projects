@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: (100vw / 750) * 40;
+}
+.w{
+    width: (693/40rem);
+    margin: 0 auto;
+}
+.menu-box:extend(.w){
+    height: (175/40rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+.banner:extend(.w){
+    width: (693/40rem);
+    height: (397/40rem);
+    overflow: hidden;
+    position: relative;
+    img{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top:(-100/40rem);
+    }
+}
